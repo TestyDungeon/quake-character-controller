@@ -81,7 +81,7 @@ public class QuakeCharacterController : MonoBehaviour
 
         if (wishspeed > MAX_SPEED)
         {
-            mathlib.VectorScale(wishvel, MAX_SPEED / wishspeed, wishvel);
+            VectorScale(wishvel, MAX_SPEED / wishspeed, wishvel);
             wishspeed = MAX_SPEED;
         }
         
@@ -211,6 +211,13 @@ public class QuakeCharacterController : MonoBehaviour
             "Grounded: " + GroundCheck());    
         }
         
+    }
+
+    public static void VectorScale(Vector3 in_, float scale, Vector3 out_)
+    {
+        out_[0] = in_[0] * scale;
+        out_[1] = in_[1] * scale;
+        out_[2] = in_[2] * scale;
     }
 
 }
