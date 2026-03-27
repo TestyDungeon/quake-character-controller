@@ -1,20 +1,21 @@
-# quake-character-controller
+<div align="center">
+<h2> Unity Quake-like Character Controller </h2>
+</div>
+## 💡 Overview
 
-Quake-like Character Controller for Unity
+Recreation of the original logic for acceleration, friction, etc. from Quake 1.
 
 ![Demo](demo.gif)
 
-An attempt to recreate the feel of Quake 1 with the original logic for acceleration, friction, etc.
 
-## Features
+## ✨ Features
 - Input handling
 - Smooth movement, rotation and jumps
 - Camera rotation system
 - Custom ground detection
 - High customizability
-- Minimalistic and lightweight
 
-## Installation
+## 🎮 Installation
 
 ### Option 1: Unity Package (Recommended)
 Download the latest .unitypackage which includes scripts, player prefab and a demo scene.
