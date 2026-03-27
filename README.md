@@ -1,6 +1,7 @@
 <div align="center">
 <h2> Unity Quake-like Character Controller </h2>
 </div>
+
 ## 💡 Overview
 
 Recreation of the original logic for acceleration, friction, etc. from Quake 1.
@@ -13,7 +14,7 @@ Recreation of the original logic for acceleration, friction, etc. from Quake 1.
 - Smooth movement, rotation and jumps
 - Camera rotation system
 - Custom ground detection
-- High customizability
+- Bunny-hopping, zig-zagging and other movement tech
 
 ## 🎮 Installation
 
